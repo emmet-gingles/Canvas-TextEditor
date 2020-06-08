@@ -1,0 +1,37 @@
+html, body {
+  background-color: #ebebe0;      /* light grey background */
+}
+
+canvas {
+  display: block;
+  margin: 5px;
+}
+
+.slider {
+  -webkit-appearance: none;      /* prevent default apperance */
+  width: 30%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;            /* grey background */
+  cursor: pointer;
+}
+
+/* for chrome */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3366ff;            /* blue background */
+  cursor: pointer;
+}
+
+/* for firefox */
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3366ff;            
+  cursor: pointer;
+}
+
